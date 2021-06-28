@@ -26,7 +26,7 @@ exports.calculate = function(req, res) {
   var operation = operations[req.query.operation];
 
   if (! operation) {
-    throw new Error("Invalid test operation: " + req.query.operation);
+    throw new Error("Invalid    NNNtest operation: " + req.query.operation);
   }
 
   // Validate operands
